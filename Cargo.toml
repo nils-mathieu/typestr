@@ -1,0 +1,11 @@
+[package]
+name = "typestr"
+version = "0.1.0"
+edition = "2021"
+authors = [ "Nils Mathieu <nils.mathieu.contact@gmail.com>" ]
+
+[dependencies]
+clap = { version = "4", features = ["derive", "unicode", "wrap_help"] }
+keysim = "0.1"
+rand = "0.8"
+rand_distr = "0.4"
